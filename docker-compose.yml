@@ -11,6 +11,7 @@ services:
             - ./nginx/conf.d/client_max_body_size.conf:/etc/nginx/conf.d/client_max_body_size.conf:ro
             - ./static/:/ffa/static
             - ./media/:/ffa/media  
+            # - ./nginx/proxy.conf/:/etc/nginx/proxy.conf
     postgres:
         container_name: postgres_data
         image: postgres:9.6

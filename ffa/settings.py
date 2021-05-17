@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'paypal.standard.ipn',
-    'ffa.apps.SuitConfig',
+    # 'ffa.apps.SuitConfig',
     'django_toggle_switch_widget',
     'django.contrib.admin',
     'django.contrib.auth',
