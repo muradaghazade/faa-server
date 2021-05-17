@@ -4,6 +4,26 @@
 *{
     font-family: "Montserrat", sans-serif !important;
 }
+#id_amount {
+    display: inline-block;
+border-radius: 4px;
+padding: 10px!important;
+padding-right: 0!important;
+width: 510px;
+background-color: #f3f3f3;
+font-size: 17px;
+border: 1px solid #d4d4d4;
+}
+
+@media only screen and (max-width: 768px){
+    #id_amount {
+    width: 18rem;
+    }
+
+}
+.right {
+    margin-bottom: 250px;
+}
 #ananoymous {
     display: inline-block;
     background-color: #fff;
