@@ -6,8 +6,5 @@ WORKDIR /code
 RUN pip install -r requirements.txt
 ADD . .
 
-RUN python manage.py makemigrations
-RUN python manage.py migrate
-
 
 CMD [ "gunicorn", "--bind", "0.0.0.0", "-p", "8000",  "ffa.wsgi" ]
